@@ -45,3 +45,34 @@ El conjunto de datos utilizado en este proyecto es un archivo CSV (`ventas_coche
 **Nota:** Los nombres y la disponibilidad exacta de las columnas pueden variar según el archivo CSV proporcionado.
 
 ## Estructura del Repositorio
+
+├── README.md
+├── notebooks/
+│   └── analisis_ventas_coches.ipynb  # Notebook de Jupyter con el código del análisis
+├── data/
+│   └── ventas_coches.csv             # Archivo CSV con los datos de ventas
+├── outputs/
+│   └── resultados_analisis.txt       # Archivo de texto con los principales hallazgos (opcional)
+│   └── gráficos/                     # Directorio para guardar las visualizaciones (opcional)
+└── requirements.txt              # Lista de dependencias de Python
+
+## Tecnologías Utilizadas
+
+* **Python:** Lenguaje de programación principal utilizado para el análisis de datos.
+* **Pandas:** Biblioteca de Python para la manipulación y el análisis de datos tabulares (DataFrames).
+* **NumPy:** Biblioteca de Python para operaciones numéricas eficientes.
+* **Matplotlib:** Biblioteca de Python para la creación de gráficos y visualizaciones básicas.
+* **Seaborn:** Biblioteca de Python para la creación de gráficos estadísticos atractivos y informativos (basada en Matplotlib).
+* **Jupyter Notebook/Lab:** Entorno interactivo para escribir y ejecutar código, así como para visualizar los resultados.
+
+## Posibles Extensiones y Mejoras
+
+* **Análisis de Series Temporales:** Si los datos de ventas cubren un período significativo, se podría realizar un análisis de series temporales para predecir futuras ventas.
+* **Segmentación de Clientes:** Analizar los datos de los clientes para identificar diferentes segmentos basados en sus compras.
+* **Modelado Predictivo:** Desarrollar modelos de aprendizaje automático para predecir el precio de venta de los coches o la probabilidad de compra de un cliente.
+* **Integración con Otras Fuentes de Datos:** Combinar los datos de ventas con información de marketing, inventario u otras fuentes relevantes para obtener una visión más completa.
+* **Creación de un Dashboard:** Desarrollar un panel de control interactivo para visualizar los principales indicadores de rendimiento (KPIs) de las ventas.
+
+## Contribuciones
+
+Las contribuciones a este proyecto son bienvenidas. Si encuentra errores, tiene sugerencias de mejora o desea agregar nuevas funcionalidades, no dude en abrir un "issue" o enviar un "pull request".
